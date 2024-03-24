@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordWeb</title>
+    
+   
+</head>
+<body>
+       <div class="wordweblogo"><img src="wordweb_logo.png" alt="word-web-logo"id= "wordweb"></div>
+        
+    <div class="container">
+        <section class="search-section">
+            <br><br><br>
+            <div class="user-links">
+                <a href="#" class="login-link">Login</a>
+                <a href="#" class="signup-link">Sign Up</a>
+            </div>
+            <label for="wordInput">Search for a word</label>
+            <input type="text" id="wordInput" placeholder="Enter a word" class="search-box">
+            <button onclick="searchWord()" class="search-button">Search</button>
+            <div class="search-result">
+                <h3>Word:</h3>
+                <p id="searchedWord"></p>
+                <h3>Meaning:</h3>
+                <p id="wordMeaning"></p>
+                <h3>Synonyms:</h3>
+                <p id="wordSynonyms"></p>
+             
+            </div>
+        </section>
+        <section class="word-of-the-day">
+            <h2>Word of the Day</h2>
+            <div class="daily-word">
+                <h3>Word:</h3>
+                <p id="dailyWord"></p>
+                <h3>Meaning:</h3>
+                <p id="dailyWordMeaning"></p>
+                <h3>Synonyms:</h3>
+                <p id="dailyWordSynonyms"></p>
+            </div>
+        </section>
+    </div>
+   
+
+
+</body>
+<footer> <h3 id ="subtitle"> Your Pathway to Word Mastery – Elevate Your Vocabulary, Word by Word
+    <br><small >~P.Dheeraj</small></h3> </footer>
+</html>

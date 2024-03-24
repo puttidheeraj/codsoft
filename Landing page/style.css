@@ -1,0 +1,50 @@
+body{
+    background-image: url(background.jpg);
+}
+.wordweblogo{
+   float: left;
+   width: 500px;
+}
+#subtitle{
+    text-align: left;
+    background-color: rgb(44, 52, 66);
+    color: white;
+}
+.search-result{
+    background-color: rgb(202, 212, 216);
+    margin: 1% ;
+    padding: 3% ;
+    filter: opacity(50%);
+}
+
+.search-box{
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    
+}
+.word-of-the-day{
+    background-color: rgb(202, 212, 216);
+    margin: 1% ;
+    padding: 3% ;
+    filter: opacity(50%);
+}
+
+
+.user-links {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.login-link,
+.signup-link {
+    margin-left: 10px;
+    padding: 8px;
+    text-decoration: none;
+    color: #fdf9f9;
+    background-color:rgb(75, 90, 91); 
+    border: 2px solid black;    
+    border-radius: 20px;
+    
+}
